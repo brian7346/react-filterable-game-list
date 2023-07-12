@@ -34,7 +34,7 @@ const GAMES = [
 const App = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <FilterableGameList games={GAMES} />
     </>
   );
 };
