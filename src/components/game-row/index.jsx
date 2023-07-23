@@ -1,6 +1,6 @@
 import GameGallery from "../game-gallery";
 
-export default function GameRow({ game }) {
+export default function GameRow({ game = {} }) {
   return (
     <li className="game-row"> 
       <span className="game-name">{game.name}</span>

@@ -15,6 +15,7 @@ export default function SearchBar({
       />
       <label>
         <input
+          className="in-whish-list-checkbox"
           type="checkbox"
           checked={inWhishListOnly}
           onChange={(e) => oninWhishListOnlyChange(e.target.checked)}

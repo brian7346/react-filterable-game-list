@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:rgb(20, 20, 29);
+  background-image: url(https://cdn.akamai.steamstatic.com/store/promo/summer2023/Steam_Summer_Sale_pattern-04-day_lighter.gif?v=2);
   min-height: 100vh;
   color: white;
 }
@@ -49,12 +49,16 @@ img:hover {
 }
 
 .search-input {
-  background-color: rgb(10, 10, 15);
+  background-color:rgb(30, 48, 102);
   border: none;
   padding: 10px;
   min-width: 30%;
-  color: white;
   margin-right: 30px;
+  color: white;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.397);
 }
 
 .game-gallery {
@@ -95,4 +99,8 @@ img:hover {
   background-color:chartreuse;
   font-weight: bold;
   color: black;
+}
+
+.in-whish-list-checkbox {
+  margin-right: 5px;
 }
