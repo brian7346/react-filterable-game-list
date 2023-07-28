@@ -1,5 +1,3 @@
-import FilterableGameList from './components/filterable-game-list';
-
 const GAMES = [
   {
     category: "Хорроры", 
@@ -34,7 +32,7 @@ const GAMES = [
 const App = () => {
   return (
     <>
-      <FilterableGameList games={GAMES} />
+      <h1>Filterable Game List</h1>
     </>
   );
 };
