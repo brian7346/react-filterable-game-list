@@ -1,15 +1,28 @@
-# Getting Started with Create React App
+# Стартер для проекта "Список игр с фильтрами"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Приложение создано помощью [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Как запустить проект
 
-In the project directory, you can run:
+В корне проекта запустить:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dockerfile в проекте
+
+В приложении есть dockerfile в котором приложение собирается и открывается с помощью сервера nginx.
+
+Соберите `image` командой: `docker build -t <название контейнера которое вы хотите> .`
+
+### `docker build -t my-react-gamelist .`
+
+После этой команды у вас будет образ(imgage) вашего приложения. \
+Теперь этот собранный образ приложения можно запустить командой:  `docker run -it <название контейнера коотрый хотите запустить>`
+
+### `docker run -it my-react-gamelist`
+
+Запустить приложение в режиме разработки.\
+Откройте [http://localhost:3000](http://localhost:3000) чтобы увидеть приложение в браузере.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
