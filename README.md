@@ -22,4 +22,4 @@
 ### `docker run -it my-react-gamelist`
 
 Запустить приложение в режиме разработки.\
-Откройте [http://localhost:3000](http://localhost:3000) чтобы увидеть приложение в браузере.
+Откройте [http://localhost](http://localhost) чтобы увидеть приложение в браузере.
